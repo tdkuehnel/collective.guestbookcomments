@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object>
+  <order manager="plone.belowcontent"  skinname="*" layer="collective.guestbookcomments.interfaces.IGuestbookCommentLayer">
+    <viewlet name="collective.guestbookcomments.guestbookcommentsviewlet" remove="True"/>
+  </order>
+  <hidden manager="plone.belowcontent" skinname="*">
+    <viewlet name="plone.comments"  remove="True"/>
+  </hidden>
+</object>

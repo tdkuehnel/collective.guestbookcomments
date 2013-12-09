@@ -1,0 +1,35 @@
+<configure 
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.guestbookcomments">
+
+  <browser:page
+      for="*"
+      name="guestbook-comment-added"
+      class=".guestbookcommentadded.GuestbookCommentAdded"
+      layer="collective.guestbookcomments.interfaces.IGuestbookCommentLayer"
+      template="templates/guestbookcommentadded.pt"
+      allowed_interface=".guestbookcommentadded.IGuestbookCommentAdded"
+      permission="zope.Public"
+      />
+
+  <browser:page
+      for="*"
+      name="guestbookcommentform"
+      layer="collective.guestbookcomments.interfaces.IGuestbookCommentLayer"
+      class=".guestbookcommentform.GuestbookCommentForm"
+      permission="zope.Public" />
+  
+  <!-- Guestbook viewlet -->
+  <browser:viewlet
+      name="guestbookcomments.comments"
+      for="Products.CMFCore.interfaces.IContentish"
+      layer="collective.guestbookcomments.interfaces.IGuestbookCommentLayer"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+      view="plone.app.layout.globals.interfaces.IViewView"
+      class=".guestbookcommentsviewlet.GuestbookCommentsViewlet"
+      permission="zope2.View"
+      />
+  
+  
+</configure>

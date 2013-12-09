@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="collective.guestbookcomments">
+<body>
+    <div metal:fill-slot="main">
+        <tal:main-macro metal:define-macro="main">
+
+          <p><span i18n:attributes="value comment_added_info">Thank you for your guestbook entry. It will be published soon.</span></p>
+	  <p><a href="" tal:attributes="href here/portal_url"
+		i18n:attributes="value comment_continue_browsing">continue browsing</a></p>
+	  <p i18n:attributes="value comment_continue_portal_browsing">Or back to the <a href="" tal:attributes="href here/absolute_url">guestbook</a></p>
+        </tal:main-macro>
+    </div>
+</body>
+</html>
