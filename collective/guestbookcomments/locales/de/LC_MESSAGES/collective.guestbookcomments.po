@@ -53,7 +53,7 @@ msgstr "Neuer Gästebucheintrag"
 
 #: collective.guestbookcomments:/browser/guestbookcommentform.py:16
 msgid "Please enter your guestbook entry"
-msgstr "Bitte tragen Sie sich im Gästebuch ein."
+msgstr "Bitte tragen Sie sich ins Gästebuch ein."
 
 #. Default: "You can add your guestbook entry by filling out the form below. Plain text formatting."
 #: collective.guestbookcomments:/browser/guestbookcommentsviewlet.py:12
@@ -84,7 +84,7 @@ msgstr "Bitte melden Sie sich an, um sich ins Gästebuch einzutragen."
 #. Default: "Add comment"
 #: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:202
 msgid "label_add_comment"
-msgstr "Ins Gästebucheintrag eintragen"
+msgstr "Gästebucheintrag vornehmen"
 
 #. Default: "Anonymous"
 #: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:264
