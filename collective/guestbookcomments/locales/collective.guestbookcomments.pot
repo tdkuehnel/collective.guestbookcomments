@@ -1,0 +1,105 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Foundation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: Wed Dec  4 17:18:29 2013\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: collective.guestbookcomments:/browser/guestbookcommentadded.py:42
+msgid "a dummy string"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentform.py:15
+msgid "New guestbook entry"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentform.py:16
+msgid "Please enter your guestbook entry"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentsviewlet.py:12
+#. Default: "You can add your guestbook entry by filling out the form below. Plain text formatting."
+msgid "comment_description_plain_text"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentsviewlet.py:17
+#. Default: "You can add your guestbook entry by filling out the form below. Plain text formatting. You can use the Markdown syntax for links and images."
+msgid "comment_description_markdown"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentsviewlet.py:23
+#. Default: "You can add your guestbook entry by filling out the form below. Plain text formatting. Web and email addresses are transformed into clickable links."
+msgid "comment_description_intelligent_text"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/guestbookcommentsviewlet.py:29
+#. Default: "Entries into the guestbook are moderated."
+msgid "comment_description_moderation_enabled"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:190
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:335
+#. Default: "Log in to add comments"
+msgid "label_login_to_add_comments"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:202
+#. Default: "Add comment"
+msgid "label_add_comment"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:264
+#. Default: "Anonymous"
+msgid "label_anonymous"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:267
+#. Default: "says:"
+msgid "label_says"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:285
+#. Default: "Delete"
+msgid "label_delete"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:303
+msgid "${DYNAMIC_CONTENT}"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:314
+#. Default: "Reply"
+msgid "label_reply"
+msgstr ""
+
+#: collective.guestbookcomments:/browser/templates/guestbookcomments.pt:323
+#. Default: "Commenting has been disabled."
+msgid "label_commenting_disabled"
+msgstr ""
+
+#: collective.guestbookcomments:/guestbookcomments.py:27
+msgid "Enable guestbook style comments"
+msgstr ""
+
+#: collective.guestbookcomments:/guestbookcomments.py:28
+msgid "Show the comments as guestbook entries with new entries on top"
+msgstr ""
+

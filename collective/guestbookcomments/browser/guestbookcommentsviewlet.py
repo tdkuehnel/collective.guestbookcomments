@@ -81,7 +81,7 @@ class GuestbookCommentsViewlet(CommentsViewlet):
 
     def is_guestbook(self):
         context = aq_inner(self.context)
-        return context.guestbookDiscussion
+        return getattr(context,"guestbookDiscussion", False)
 
     def get_replies(self, workflow_actions=False):
         """Returns all replies to a content object.

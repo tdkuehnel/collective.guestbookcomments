@@ -13,6 +13,7 @@
   <include package="archetypes.schemaextender" />
   <adapter factory=".guestbookcomments.PageExtender" 
 	   provides="archetypes.schemaextender.interfaces.ISchemaExtender"/>
+
   <i18n:registerTranslations directory="locales"/>
 
 </configure>
